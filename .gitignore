@@ -1,0 +1,114 @@
+venv
+# -----------------------------------------
+# Python
+# -----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.joblib
+
+# Virtual environments (already have venv)
+.env/
+.env*/
+.venv*/
+pip-wheel-metadata/
+pip-log.txt
+
+# Local environment variables
+*.env
+
+# -----------------------------------------
+# IDE / Editor files
+# -----------------------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------------------
+# Jupyter Notebook
+# -----------------------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# -----------------------------------------
+# OS Files
+# -----------------------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------
+# Logs
+# -----------------------------------------
+logs/
+*.log
+events.out.tfevents.*
+lightning_logs/
+
+# -----------------------------------------
+# Model Checkpoints & Training Outputs
+# -----------------------------------------
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.tflite
+*.pb
+*.weights
+
+# HuggingFace cache
+~/.cache/huggingface/
+huggingface/
+
+# PyTorch Lightning
+lightning_logs/
+pl_logs/
+
+# TensorBoard
+runs/
+
+# -----------------------------------------
+# Dataset & Large Files (generated or downloaded)
+# -----------------------------------------
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.npz
+*.npy
+*.csv  # if large generated datasets (optional)
+*.hdf5
+
+# If using Kaggle API downloads
+*.json
+kaggle.json
+
+# -----------------------------------------
+# Build / Packaging
+# -----------------------------------------
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# -----------------------------------------
+# Docker
+# -----------------------------------------
+docker/
+*.pid
+
+# -----------------------------------------
+# Misc
+# -----------------------------------------
+tmp/
+temp/
+.cache/
+logs/
+outputs/
+results/
